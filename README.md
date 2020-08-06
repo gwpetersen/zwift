@@ -28,7 +28,7 @@ $ yarn open:cypress
 ```
 
 > We should see the Cypress Test Runner.
-> Click on any <name>:spec.js what are displayed in the list of Integration Tests at the Cypress Test Runner.
+> Click on any <name>:spec.js that are displayed in the list of Integration Tests at the Cypress Test Runner.
 > You will see how Cypress launch test in your browser.
 
 ## To Run Specifc Cypress Test via command line
@@ -38,7 +38,7 @@ $ yarn open:cypress
 ```bash
 $ yarn test:events
 ```
-#### this is a homepage test that will run headlessly in elecron browser
+#### this is a homepage test that will run headlessly in electron browser
 ```bash
 $ yarn test:homepage
 ```
