@@ -29,6 +29,7 @@ describe('Home Page', () => {
         cy.viewport('iphone-x');
         cy.get('#znv-header-open-burger').click();
         NavBar.events().click({force: true});
+        cy.location('pathname').should('eq', '/events');
         cy.title().should('eq', 'Zwift | Events on Zwift');
      });
 
