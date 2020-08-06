@@ -37,7 +37,7 @@ describe('Events Page', () => {
         })
     });
 
-    it('is able to filter events by Intensities', () => {
+    it.only('is able to filter events by Intensities', () => {
         const intensities = [
             { 1: 'A' },
             { 2: 'B' },
@@ -50,7 +50,8 @@ describe('Events Page', () => {
                 EventsPage.listings().each(($event) => {
                     // each listing should have its corresponding data label
                     // depending on what the user filtered by
-                    expect($event.find(`[data-label=${index + 1}]`).length === 1).to.eq(true)
+                    expect($event.find(`[data-label=${index + 1}]`, 
+                    `intensitie ${intensitie[index+1]} should exists`).length === 1).to.eq(true)
                 })
             }
         })
