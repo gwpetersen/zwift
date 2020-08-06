@@ -1,0 +1,16 @@
+{
+  "name": "garett-zwift",
+  "scripts": {
+    "start": "yarn e2e:open",
+    "e2e:run": "cypress run -b chrome",
+    "e2e:video": "cypress run -b chrome --config video=true",
+    "test": "cypress run",
+    "open:cypress": "cypress open",
+    "test:homepage": "yarn test --spec 'cypress/integration/specs/homepage.spec.js'",
+    "test:events": "yarn test --spec 'cypress/integration/specs/events.spec.js'"
+  },
+  "dependencies": {
+    "@testing-library/cypress": "^6.0.0",
+    "cypress": "^4.12.1"
+  }
+}
