@@ -37,7 +37,7 @@ describe('Events Page', () => {
         })
     });
 
-    it.only('is able to filter events by Intensities', () => {
+    it('is able to filter events by Intensities', () => {
         const intensities = [
             { 1: 'A' },
             { 2: 'B' },
