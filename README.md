@@ -1,6 +1,5 @@
-# zwift
-Home Page and Events Name Test
-# Automation
+
+# Awift Automation
 [![Build Status](https://travis-ci.com/digital-motors/automation.svg?token=kYHHaCPFAgthTpsxKucd&branch=master)](https://travis-ci.com/digital-motors/automation) [![Cypress Dashboard](https://img.shields.io/badge/cypress-dashboard-brightgreen.svg)](https://dashboard.cypress.io/#/projects/8kh5dt/runs)
 
 ## Installation
