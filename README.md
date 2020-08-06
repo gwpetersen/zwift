@@ -24,7 +24,7 @@ More info about installation: https://docs.cypress.io/guides/getting-started/ins
 #### this opens the cypress test runner
 #### in the GUI mode.
 ```bash
-$ yarn cypress:open
+$ yarn open:cypress
 ```
 
 > We should see the Cypress Test Runner.
